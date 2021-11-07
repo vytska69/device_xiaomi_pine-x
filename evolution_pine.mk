@@ -23,7 +23,7 @@ $(call inherit-product, device/xiaomi/pine/device.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := pine
-PRODUCT_NAME := evolution_pine_pine
+PRODUCT_NAME := evolution_pine
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 7A
