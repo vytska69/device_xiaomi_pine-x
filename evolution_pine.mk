@@ -1,4 +1,4 @@
-#
+    #
 # Copyright (C) 2021 The AospExtended
 #
 # SPDX-License-Identifier: Apache-2.0
@@ -13,9 +13,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_GAPPS_ARCH := arm64
-TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
-TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Inherit from pine device
 $(call inherit-product, device/xiaomi/pine/device.mk)
