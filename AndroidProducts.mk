@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_pine.mk
+    $(LOCAL_DIR)/cherish_pine.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_pine-user \
-    evolution_pine-userdebug \
-    evolution_pine-eng
+    cherish_pine-user \
+    cherish_pine-userdebug \
+    cherish_pine-eng
